@@ -4,4 +4,5 @@
 * [TypeScript 101](typescript-101/README.md)
   * [TypeScript คืออะไร?](typescript-101/what-is-typescript.md)
   * [ติดตั้ง TypeScript](typescript-101/typescript-installation.md)
+  * [รู้จัก Basic Type ต่างๆ](typescript-101/basic-types.md)
 
