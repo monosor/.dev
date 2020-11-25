@@ -84,8 +84,6 @@ sum("10", 30)
 
 การใช้ TypeScript แทน JavaScript ถึงแม้ว่ามันจะมี Learning Curve ที่มากขึ้น แต่จะทำให้เราและทีมเขียนโค้ดได้อย่างรัดกุมมากขึ้น และเกิด Bug น้อยลงได้
 
-
-
 ## อ้างอิง
 
 * [https://www.typescriptlang.org](https://www.typescriptlang.org/)
