@@ -9,4 +9,5 @@
   * [การกำหนด Type ในฟังก์ชั่น](typescript-101/types-in-functions.md)
   * [การสร้าง Interface](typescript-101/create-interfaces.md)
   * [Literal Types](typescript-101/literal-types.md)
+  * [Type vs Interface](typescript-101/type-vs-interface.md)
 
