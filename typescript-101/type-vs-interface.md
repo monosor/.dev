@@ -30,7 +30,7 @@ interface Color "Yellow" | "Red" // ❌ ไม่ได้ เพราะไม
 
 นอกจากนี้ยังมีข้ออื่นๆ ที่ `interface` ไม่เหมือนกับ `type` อีก 2-3 เรื่อง [ดูรายละเอียดที่นี่](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces)
 
-จากความเห็นส่วนตัว และประสบการณ์ที่เขียนมา ขอสรุปแบบจำง่ายๆ ตามนี้
+ส่วนเรื่องอะไรควรใช้เมื่อไหร่ จากความเห็นส่วนตัว และประสบการณ์ที่เขียนมา ขอสรุปแบบจำง่ายๆ ตามนี้
 
-> #### ถ้าใช้ `interface` ได้ \(เช่นกำหนดสำหรับ Object, Class\) ก็ใช้ ถ้าใช้ไม่ได้ค่อยใช้ `type` แทน
+> #### ถ้าใช้ `interface` ได้ \(เช่นกำหนดสำหรับ Object, Class\) ก็ใช้ ถ้าทำไม่ได้ค่อยใช้ `type` แทน
 
