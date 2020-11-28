@@ -10,4 +10,5 @@
   * [การสร้าง Interface](typescript-101/create-interfaces.md)
   * [Literal Types](typescript-101/literal-types.md)
   * [Type vs Interface](typescript-101/type-vs-interface.md)
+  * [Union Types และ Intersection Types](typescript-101/union-types-intersection-types.md)
 
