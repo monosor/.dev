@@ -11,4 +11,5 @@
   * [Literal Types](typescript-101/literal-types.md)
   * [Type vs Interface](typescript-101/type-vs-interface.md)
   * [Union Types และ Intersection Types](typescript-101/union-and-intersection-types.md)
+  * [Generics ขั้นพื้นฐาน](typescript-101/basic-generics.md)
 
