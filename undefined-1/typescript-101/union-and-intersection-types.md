@@ -32,7 +32,7 @@ sayHello(["เจน", "นุุ่น"]) // ✅ สวัสดี เจน, 
 sayHello("โบว์")         // ❌ Error
 ```
 
-![&#xE44;&#xE21;&#xE48;&#xE2A;&#xE32;&#xE21;&#xE32;&#xE23;&#xE16;&#xE43;&#xE0A;&#xE49; join\(\) &#xE44;&#xE14;&#xE49; &#xE40;&#xE1E;&#xE23;&#xE32;&#xE30;&#xE16;&#xE49;&#xE32; people &#xE40;&#xE1B;&#xE47;&#xE19; String &#xE08;&#xE30;&#xE40;&#xE01;&#xE34;&#xE14; Runtime error](../.gitbook/assets/image%20%285%29.png)
+![&#xE44;&#xE21;&#xE48;&#xE2A;&#xE32;&#xE21;&#xE32;&#xE23;&#xE16;&#xE43;&#xE0A;&#xE49; join\(\) &#xE44;&#xE14;&#xE49; &#xE40;&#xE1E;&#xE23;&#xE32;&#xE30;&#xE16;&#xE49;&#xE32; people &#xE40;&#xE1B;&#xE47;&#xE19; String &#xE08;&#xE30;&#xE40;&#xE01;&#xE34;&#xE14; Runtime error](../../.gitbook/assets/image%20%285%29.png)
 
 จากตัวอย่างข้างต้น ต้องทำการแก้ไขโค้ดให้รองรับทุก Type ที่ Union กัน เช่น
 
@@ -67,7 +67,7 @@ function printColorCode(c: Color): string {
 
 ถ้าในฟังก์ชั่นนี้ไม่ได้เช็คทุกกรณี เช่นมี case `red` กับ `green` แต่ไม่มี `blue` หรือสะกดเคสใดๆ ผิด จะเกิด Error ขึ้น
 
-![Error &#xE40;&#xE1E;&#xE23;&#xE32;&#xE30;&#xE1E;&#xE34;&#xE21;&#xE1E;&#xE4C; &quot;blue&quot; &#xE1C;&#xE34;&#xE14;](../.gitbook/assets/image%20%286%29.png)
+![Error &#xE40;&#xE1E;&#xE23;&#xE32;&#xE30;&#xE1E;&#xE34;&#xE21;&#xE1E;&#xE4C; &quot;blue&quot; &#xE1C;&#xE34;&#xE14;](../../.gitbook/assets/image%20%286%29.png)
 
 จะเห็นได้ว่า TypeScript จะทำให้เราเขียนโค้ดที่ Bug-free มากขึ้น เนื่องจากเรารองรับ Edge Case ท้ังหมดได้จากการจำกัด Type ที่จะใช้ในฟังก์ชั่น แต่ก็ยังมีความยืดหยุ่นจากการ Union ได้ ทำให้ไม่ต้องเขียนแยกกัน ทำให้มีโค้ดมากเกินความจำเป็น
 
