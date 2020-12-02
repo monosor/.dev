@@ -2,7 +2,7 @@
 
 ## Courses
 
-* [TypeScript 101 \(ยังเขียนไม่เสร็จ\)](undefined-1/typescript-101/)
+* [TypeScript 101 \(ยังเขียนไม่เสร็จ\)](courses/typescript-101/)
 
 ## หลักการและเหตุผล <a id="rationale"></a>
 
