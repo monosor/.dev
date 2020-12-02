@@ -15,6 +15,7 @@
   * [Type vs Interface](undefined-1/typescript-101/type-vs-interface.md)
   * [Union Types และ Intersection Types](undefined-1/typescript-101/union-and-intersection-types.md)
   * [Generics ขั้นพื้นฐาน](undefined-1/typescript-101/basic-generics.md)
+  * [Optional Properties](undefined-1/typescript-101/optional-properties.md)
 
 ## ลิงก์
 
