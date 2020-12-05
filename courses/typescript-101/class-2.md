@@ -81,5 +81,54 @@ class BigBrain extends Brain {
 
 ```
 
+### Static Members
 
+การตั้งตัวแปรและเมธอดให้เป็น `static` จะทำให้สามารถเรียกใช้ได้จากคลาสนั้นโดยตรง โดยไม่ต้องสร้าง Object ด้วย `new` ก่อน วิธีนี้เหมาะกับการสร้างค่าคงที่หรือเมธอดที่ไม่ต้องใช้ค่าใน Object
+
+```typescript
+class Tweet {
+  static charLimit = 280
+  message: string
+  
+  static charLimitMessage() {
+    return `Character limit is ${Tweet.charLimit}` // เรียกใช้จากในคลาส
+  }
+
+  constructor(message: string) {
+    if (message.length > Tweet.charLimit) { // เรียกใช้จาก Constructor
+      throw new Error(Tweet.charLimitMessage())
+    }
+
+    this.message = message
+  }
+}
+
+Tweet.charLimit // เรียกใช้จากภายนอกคลาส
+```
+
+### Generic Classes
+
+เช่นเดียวกับ Interface เราสามารถใช้ Generic กับคลาสได้ ข้อแตกต่างคือการทำเป็นคลาสเราจะ Infer Type ด้วย Constructor Method ได้เลย
+
+```typescript
+// เขียนแบบ Class
+class Package<T> {
+  contents: T
+  
+  constructor(value: T) { // Infer จาก value ที่นำเข้ามา
+    this.contents = value
+  }
+}
+
+const pkgObject = new Package("มันคือแป้ง") // T เป็น string จากการ Infer
+
+// เขียนแบบ Interface
+interface Package<T> {
+  contents: T
+}
+
+const pkgInterface: Package<string> = { contents: "มันคือแป้ง" } // ต้องกำหนด T เอง
+```
+
+เรื่องของคลาสยังมีอีกเยอะ แต่ขอไปศืกษาเพิ่มก่อนนะ \(เนื้อหาเรื่องคลาสทั้งสองตอนครอบคลุมการใช้งานและการอ่านโค้ดของคนอื่นได้พอประมาณ ถ้าต้องการดูเนื้อหาท้ังหมดสามารถดูได้จาก [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/2/classes.html)\)
 
