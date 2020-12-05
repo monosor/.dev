@@ -17,6 +17,7 @@
   * [Generics ขั้นพื้นฐาน](courses/typescript-101/basic-generics.md)
   * [Optional Properties](courses/typescript-101/optional-properties.md)
   * [Class \(1\)](courses/typescript-101/class-1.md)
+  * [Class \(2\)](courses/typescript-101/class-2.md)
 
 ## ลิงก์
 
