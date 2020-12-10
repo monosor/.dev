@@ -18,6 +18,7 @@
   * [Optional Properties](courses/typescript-101/optional-properties.md)
   * [Class \(1\)](courses/typescript-101/class-1.md)
   * [Class \(2\)](courses/typescript-101/class-2.md)
+  * [ลองเขียนเว็บง่าย ๆ ด้วย TypeScript](courses/typescript-101/create-simple-web-with-typescript.md)
 
 ## ลิงก์
 
