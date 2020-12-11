@@ -44,7 +44,10 @@ type NotNumber = string | boolean | array
 
 ```typescript
 const x = "ABC"    // x มี Type เป็น "ABC" ซึ่งเป็น Literal เพราะใช้ const
-let y = "XYZ"      // x มี Type เป็น string เพราะเปลี่ยนเป็นค่าอื่นได้เนื่องจากใช้ let
+x = "DEF"          // ❌ เปลี่ยนค่า x ไม่ได้ เพราะต้องเป็น "ABC" เสมอ
+
+let y = "XYZ"      // y มี Type เป็น string เพราะเปลี่ยนเป็นค่าอื่นได้เนื่องจากใช้ let
+y = "ABC"          // ✅ เปลี่ยนค่า y ได้ เพราะยังเป็น string อยู่
 ```
 
 
