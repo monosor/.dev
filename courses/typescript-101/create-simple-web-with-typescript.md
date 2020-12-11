@@ -88,7 +88,7 @@ res = {
 // }
 
 interface Res {
-  results: [
+  results: Array<
     {
       gender: string;
       name: {
@@ -98,7 +98,7 @@ interface Res {
       };
       // Field ที่เหลือไม่ต้องใส่ก็ได้ เพราะเราไม่ใช้ทั้้งหมด
     }
-  ];
+  >;
 }
 
 fetch("https://randomuser.me/api")
@@ -141,7 +141,7 @@ fetch("https://randomuser.me/api?results=5")
 
 ```typescript
 interface Res {
-  results: [
+  results: Array<
     {
       gender: string;
       name: {
@@ -150,7 +150,7 @@ interface Res {
         last: string;
       };
     }
-  ];
+  >;
 }
 ```
 
@@ -158,7 +158,7 @@ interface Res {
 
 ```typescript
 interface Results {
-  results: [User] // Array ของ User
+  results: User[] // หรือ Array<User>
 }
 
 interface User {
@@ -206,7 +206,7 @@ function printToWeb(res: Results) {
 
 ```typescript
 interface Results {
-  results: [User]
+  results: User[]
 }
 
 interface User {
