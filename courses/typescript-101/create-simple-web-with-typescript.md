@@ -16,7 +16,7 @@
 
 จากภาพ `fetch` จะรับ Argument ตัวแรกเรียกว่า `input` ที่มีชนิดเป็น `RequestInfo` และตัวที่สองเรียกว่า `init` เป็น `RequestInit` หรือ `undefined` \(แปลว่าตัวที่สองเราจะไม่ใส่ก็ได้\) และมีการคืนค่าเป็น `Promise<Response>`
 
-ต่อมาเราจะใส่ `input` ให้เป็น URL ของ API ที่เราต้องการใช้ คือ `https://randomuser.me/api` 
+ต่อมาเราจะใส่ `input` ให้เป็น URL ของ API ที่เราต้องการใช้ คือ `https://randomuser.me/api`
 
 ```typescript
 fetch("https://randomuser.me/api")
@@ -44,7 +44,7 @@ fetch("https://randomuser.me/api")
 
 ![](../../.gitbook/assets/image%20%2818%29.png)
 
-จะเห็นว่า ข้อมูลของ `console.log(res)` เป็น Object ที่มีรูปร่างแบบนี้ 
+จะเห็นว่า ข้อมูลของ `console.log(res)` เป็น Object ที่มีรูปร่างแบบนี้
 
 ```typescript
 res = {
@@ -131,11 +131,11 @@ fetch("https://randomuser.me/api?results=5")
 
 ![](../../.gitbook/assets/image%20%2810%29.png)
 
-### Improvements
+## Improvements
 
 โค้ดของเราอาจทำงานได้ตามต้องการแล้ว แต่ยังมีบางจุดที่สามารถจัดการให้เรียบร้อยขึ้นได้ ดังนี้
 
-#### 1. Refactor Type
+### 1. Refactor Type
 
 โดยทั่วไปแล้วเราจะไม่สร้าง Type/Interface ที่มีข้อมูลหลายชั้นมากจนเกินไป ตาม Practice แล้วควรจะ Refactor ด้วยการสร้าง Type/Interface เพิ่มเติม และตั้งชื่อให้เข้าใจได้ง่าย จากตัวอย่างเรามี Interface `Res` หน้าตาแบบนี้
 
@@ -173,7 +173,7 @@ interface Name {
 }
 ```
 
-#### 2. Fix warnings
+### 2. Fix warnings
 
 จะมีบ่อยคร้ัง ที่เราทำงานกับเว็บแล้วเรียกฟังก์ชั่นที่ "อาจคืนค่าเป็น `null`" ก็ได้ เช่นกรณีนี้เราจะหา HTML Element ที่มีไอดีเป็น app เช่น `<div id="app">` แต่ถ้าเราไม่มี Element นี้บนหน้าเว็บเลย ฟังก์ชั่นนี้จะคืนค่า `null` แทน และโค้ดนี้จะพังเพราะว่าไม่สามารถใช้ `innerHTML` ได้
 
@@ -202,7 +202,7 @@ function printToWeb(res: Results) {
 
 เมื่อทำแบบนี้แล้วเส้นแดง Warning ก็จะหายไปแล้ว \(แต่ว่าถ้าเราไม่มีไอดี `app` อยู่จริง แอปก็จะพังอยู่ดีนะ ฉะนั้นไม่ควรใช้ Non-null operator พรำ่เพรื่อ\)
 
-### Code ทั้งหมด \(เฉพาะ TypeScript\)
+## Code ทั้งหมด \(เฉพาะ TypeScript\)
 
 ```typescript
 interface Results {
