@@ -20,6 +20,9 @@
   * [Class \(2\)](courses/typescript-101/class-2.md)
   * [ลองเขียนเว็บง่าย ๆ ด้วย TypeScript](courses/typescript-101/create-simple-web-with-typescript.md)
   * [Utility Types](courses/typescript-101/utility-types.md)
+* [Ruby ฉบับคนหัดโค้ด](courses/ruby/README.md)
+  * [บทนำ](courses/ruby/introduction.md)
+  * [ทำไมต้อง Ruby?](courses/ruby/why-ruby.md)
 
 ## ลิงก์
 
