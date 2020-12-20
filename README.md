@@ -2,7 +2,8 @@
 
 ## Courses
 
-* [TypeScript 101 \(ยังเขียนไม่เสร็จ\)](courses/typescript-101/)
+* [TypeScript 101](courses/typescript-101/)
+* [Ruby ฉบับคนหัดโค้ด](courses/ruby/)
 
 ## หลักการและเหตุผล <a id="rationale"></a>
 
