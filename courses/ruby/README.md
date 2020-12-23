@@ -3,7 +3,7 @@
 ## สารบัญ
 
 * [บทนำ](introduction.md)
-* [ทำไมต้อง Ruby?](why-ruby.md) \(Draft\)
+* [ทำไมต้อง Ruby?](why-ruby.md)
 
 
 
