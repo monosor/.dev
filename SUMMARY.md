@@ -23,6 +23,7 @@
 * [Ruby ฉบับคนหัดโค้ด](courses/ruby/README.md)
   * [บทนำ](courses/ruby/introduction.md)
   * [ทำไมต้อง Ruby?](courses/ruby/why-ruby.md)
+  * [ลองเล่น Ruby](courses/ruby/try-ruby.md)
 
 ## ลิงก์
 
