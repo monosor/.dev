@@ -24,7 +24,7 @@
   * [บทนำ](courses/ruby/introduction.md)
   * [ทำไมต้อง Ruby?](courses/ruby/why-ruby.md)
   * [ลองเล่น Ruby](courses/ruby/try-ruby.md)
-  * [เตรียมพร้อมเรียน Ruby](courses/ruby/prepare-ruby.md)
+  * [เตรียมพร้อมเรียน Ruby](courses/ruby/prepare-to-learn.md)
 
 ## ลิงก์
 
