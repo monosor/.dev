@@ -25,6 +25,7 @@
   * [ทำไมต้อง Ruby?](courses/ruby/why-ruby.md)
   * [ลองเล่น Ruby](courses/ruby/try-ruby.md)
   * [เตรียมพร้อมเรียน Ruby](courses/ruby/prepare-to-learn.md)
+  * [ตัวเลข และชุดอักขระ](courses/ruby/numbers-and-string.md)
 
 ## ลิงก์
 
