@@ -26,6 +26,8 @@
   * [ลองเล่น Ruby](courses/ruby/try-ruby.md)
   * [เตรียมพร้อมเรียน Ruby](courses/ruby/prepare-to-learn.md)
   * [ตัวเลข และชุดอักขระ](courses/ruby/numbers-and-string.md)
+  * [เมธอด](courses/ruby/undefined.md)
+  * [ตัวแปร \(ยังเขียนไม่เสร็จ\)](courses/ruby/variables.md)
 
 ## ลิงก์
 
