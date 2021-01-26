@@ -27,7 +27,8 @@
   * [เตรียมพร้อมเรียน Ruby](courses/ruby/prepare-to-learn.md)
   * [ตัวเลข และชุดอักขระ](courses/ruby/numbers-and-string.md)
   * [เมธอด](courses/ruby/methods.md)
-  * [ตัวแปร \(ยังเขียนไม่เสร็จ\)](courses/ruby/variables.md)
+  * [ตัวแปร](courses/ruby/variables.md)
+  * [ตัวแปร \(เฉลยแบบฝึกหัด\)](courses/ruby/undefined.md)
 
 ## ลิงก์
 
