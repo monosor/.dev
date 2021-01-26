@@ -1,9 +1,6 @@
 # Ruby ฉบับคนหัดโค้ด
 
-## สารบัญ
-
-* [บทนำ](introduction.md)
-* [ทำไมต้อง Ruby?](why-ruby.md)
+## เริ่มอ่านจาก [บทนำ](introduction.md)
 
 
 
