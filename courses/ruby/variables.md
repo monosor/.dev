@@ -10,7 +10,7 @@
 
 การสร้างตัวแปร \(บ้างอาจเรียก การ "ประกาศ" ตัวแปร\) ทำได้โดยการตั้งชื่อของตัวแปร ตามด้วยเครื่องหมายเท่ากับ `=` แล้วตามด้วยค่าของข้อมูลทางด้านขวา
 
-{% embed url="https://repl.it/@narze/variables-declare" %}
+{% embed url="https://repl.it/@narze/variables-declare?lite=true" %}
 
 จากตัวอย่างด้านบน เป็นการประกาศตัวแปร 3 ตัว ได้แก่ :
 
@@ -28,11 +28,11 @@
 
 เมื่อเราประกาศตัวแปรเสร็จแล้ว ลองใช้คำสั่ง `puts` กับตัวแปรเหล่านี้ดู
 
-{% embed url="https://repl.it/@narze/variables-puts" %}
+{% embed url="https://repl.it/@narze/variables-puts?lite=true" %}
 
 นอกจากนี้ เรายังนำตัวแปรมาใช้ซำ้ได้ เช่นการใช้ตัวแปรมาบวกเลขกัน หรือเรียก[เมธอด](methods.md#method)กับตัวแปรสตริง เป็นต้น
 
-{% embed url="https://repl.it/@narze/variables-methods" %}
+{% embed url="https://repl.it/@narze/variables-methods?lite=true" %}
 
 จากตัวอย่างด้านบน เป็นการใช้งานตัวแปร ได้แก่ :
 
@@ -58,7 +58,7 @@
 
 ซึ่งถ้าจะแก้ไขปัญหาของโค้ดส่วนนี้ จะต้องทำการแปลงค่า `x` ให้เป็นสตริงก่อน ด้วยเมธอดการแปลงค่าเป็นสตริง `.to_s` ซึ่งเมื่อเราแปลงแล้ว การบวกสตริงสองตัวเข้าด้วยกัน จะนับเป็นการเอาคำมาต่อท้ายนั่นเอง
 
-{% embed url="https://repl.it/@narze/variables-methods-fix?lite=1" %}
+{% embed url="https://repl.it/@narze/variables-methods-fix?lite=true" %}
 
 {% hint style="info" %}
 การแปลงประเภทข้อมูลในภาษา Ruby จะเป็นเมธอดที่นิยมตั้งชื่อเป็นรูปแบบของ `.to_*` เช่น
@@ -74,13 +74,13 @@
 
 แต่ถ้าเราทำการประกาศตัวแปรโดยใช้ชื่อเดิม จะถือว่าเป็นการล้างค่าตัวแปรเดิมไปเลย ตามตัวอย่างโค้ดด้านล่างนี้
 
-{% embed url="https://repl.it/@narze/variables-methods-redeclare?lite=1" %}
+{% embed url="https://repl.it/@narze/variables-methods-redeclare?lite=true" %}
 
 เมื่อถึงบรรทัด `puts x` จะได้ค่าออกมาเป็น `3` เพราะเราทำการประกาศซำ้หลายครั้ง ทำให้ค่าเดิมถูกล้างไป และครั้งสุดท้ายที่ประกาศคือ `x = 3`
 
 นอกจากนี้เรายังสามารถใช้ค่าจากตัวแปรเดิมในทางด้านขวา เพื่อกำหนดค่าใหม่ได้อีกด้วย
 
-{% embed url="https://repl.it/@narze/variables-methods-redeclare-1?lite=1" %}
+{% embed url="https://repl.it/@narze/variables-methods-redeclare-1?lite=true" %}
 
 เมื่อถึงบรรทัด `puts x` จะได้ค่าออกมาเป็น `6` ถ้าเราแจกแจงแต่ละบรรทัด `x` จะถูกเปลี่ยนค่าดังนี้
 
@@ -92,6 +92,6 @@
 
 โจทย์ : มีตะกร้าผลไม้ทั้งหมด `5` ใบ ใบหนึ่งมีแอปเปิล `4` ลูก แต่มีแอปเปิลเสียไป `3` ลูกจากทั้งหมด จงหาว่าเหลือแอปเปิลที่ยังไม่เสียกี่ลูก ให้โปรแกรมตอบว่า `เหลือแอปเปิล 17 ลูก` โค้ดที่ให้จะยังมี Error อยู่ จงแก้โค้ดให้ทำงานได้และตอบคำถามได้ถูกต้อง โดยการสร้างตัวแปร `a, b, c และ d`
 
-{% embed url="https://repl.it/@narze/variables-practice?lite=1" %}
+{% embed url="https://repl.it/@narze/variables-practice?lite=true" %}
 
 ดูเฉลยได้ในบทถัดไป

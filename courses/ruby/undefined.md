@@ -1,5 +1,5 @@
 # ตัวแปร \(เฉลยแบบฝึกหัด\)
 
-{% embed url="https://repl.it/@narze/variables-practice-solution?lite=1" %}
+{% embed url="https://repl.it/@narze/variables-practice-solution?lite=true" %}
 
 จากแบบฝึกหัด เราจะต้องสร้างตัวแปรเพื่อเก็บตัวเลข โดยการสร้าง `a, b, c และ d` ขึ้นมา โดย `d` จะเป็นการนำค่า `a` มาคูณกับ `b` และลบด้วย `c` อีกทีหนึ่ง จึงจะได้จำนวนแอปเปิลที่ยังไม่เสีย
