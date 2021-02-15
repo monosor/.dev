@@ -42,7 +42,7 @@ fetch("https://randomuser.me/api")
 
 ใน Editor ให้กดที่ปุ่ม Console เพื่อดูค่าที่ Log ไว้
 
-![](../../.gitbook/assets/image%20%2818%29.png)
+![](../../.gitbook/assets/image%20%2818%29%20%281%29.png)
 
 จะเห็นว่า ข้อมูลของ `console.log(res)` เป็น Object ที่มีรูปร่างแบบนี้
 

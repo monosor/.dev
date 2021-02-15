@@ -28,7 +28,8 @@
   * [ตัวเลข และชุดอักขระ](courses/ruby/numbers-and-string.md)
   * [เมธอด](courses/ruby/methods.md)
   * [ตัวแปร](courses/ruby/variables.md)
-  * [ตัวแปร \(เฉลยแบบฝึกหัด\)](courses/ruby/undefined.md)
+  * [ตัวแปร \(เฉลยแบบฝึกหัด\)](courses/ruby/variables-practice-solutions.md)
+  * [ประเภทข้อมูลต่างๆ](courses/ruby/data-types.md)
 
 ## ลิงก์
 
