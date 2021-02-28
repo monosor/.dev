@@ -30,6 +30,7 @@
   * [ตัวแปร](courses/ruby/variables.md)
   * [ตัวแปร \(เฉลยแบบฝึกหัด\)](courses/ruby/variables-practice-solutions.md)
   * [ประเภทข้อมูลต่างๆ](courses/ruby/data-types.md)
+  * [Boolean](courses/ruby/boolean.md)
 
 ## ลิงก์
 
